@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+#header {
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: solid 1px #DFDFDF;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+#header a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #4e4e4e;
+    background-color: #ffffff;
+    font-size: 13px;
+}
+#header .divver {
+    padding: 0 20px;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header .left {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+#header img {
+    height: 24px;
+}
+#header .img {
+    margin-right: 10px;
+}
+#header a {
+    display: inline-block;
+    border-radius: 4px;
+    transition: background-color 200ms ease-in;
+    padding: 4px 7px;
+}
+#header a:not(.selected):hover {
+    background-color: #f7f7f7;
+}
+#header .selected {
+    background-color: #f3be00;
+    color: #ffffff;
+}
+
+#header .dropdowndtn {
+    display: none;
+}
+
+@media ( max-width: 500px ) {
+    #header .dropdowndtn {
+        display: block;
+    }
+
+      .right {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .listed {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        background-color: #ffffff;
+        margin-left: -75px;
+        width: 100px;
+        padding: 5px;
+        padding-top: 10px;
+      }
+      
+      .listed a {
+        padding: 12px 16px;
+        display: block;
+
+      }
+      
+      .listed a:hover {background-color: #ddd;}
+      
+      .right:hover .listed {
+          display: flex;
+          flex-direction: column;
+        }
+      
+      .right:hover .dropbtn {background-color: #3e8e41;}
+
+}
+
+  
+body {
+    background-color: cadetblue;
+}
