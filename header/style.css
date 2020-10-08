@@ -55,6 +55,10 @@
     display: none;
 }
 
+.listed_mob {
+    display: none;
+}
+
 @media ( max-width: 500px ) {
     #header .dropdowndtn {
         display: block;
@@ -65,8 +69,12 @@
         position: relative;
         display: inline-block;
       }
-      
+
       .listed {
+          display: none;
+      }
+      
+      .listed_mob {
         display: flex;
         flex-direction: column;
         position: absolute;
@@ -91,4 +99,9 @@
     
     
 
+}
+
+  
+body {
+    background-color: rgb(53, 134, 114);
 }
