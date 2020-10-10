@@ -54,7 +54,7 @@
     display: none;
 }
 
-.listed_mob {
+#header .listed_mob {
     display: none;
 }
 
@@ -65,16 +65,16 @@
         padding: 3px;
     }
 
-      .right {
+    #header .right {
         position: relative;
         display: inline-block;
       }
 
-      .listed {
+      #header .listed {
           display: none;
       }
       
-      .listed_mob {
+      #header .listed_mob {
         display: flex;
         flex-direction: column;
         position: absolute;
@@ -87,21 +87,18 @@
         padding-top: 10px;
         border: none;
         border-top: none;
+        z-index: 100;
+        
       }
       
-      #header .listed a {
+      #header  #header .listed a {
         padding: 12px 16px;
         display: block;
 
       }
       
-      .listed a:hover {background-color: #ddd;}
+      #header  .listed a:hover {background-color: #ddd;}
     
     
 
-}
-
-  
-body {
-    background-color: rgb(53, 134, 114);
 }
