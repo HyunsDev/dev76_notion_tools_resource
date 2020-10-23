@@ -105,6 +105,12 @@ div[data-root][style="max-width:100%;width:auto;white-space:nowrap;word-break:br
     padding-left: 20px;
 }
 
+
+.sidebar a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 #tagbar {
     margin-top: 20px;
 }
