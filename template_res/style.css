@@ -106,10 +106,8 @@ div[data-root][style="max-width:100%;width:auto;white-space:nowrap;word-break:br
 }
 
 
-.sidebar a {
-    color: #ffffff;
-    text-decoration: none;
-}
+
+
 
 #tagbar {
     margin-top: 20px;
@@ -160,6 +158,12 @@ div[data-root][style="max-width:100%;width:auto;white-space:nowrap;word-break:br
     color: #ffffff;
     border-radius: 4px;
     margin-bottom: 10px;
+    
+}
+
+.upload>a {
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .search_title {
