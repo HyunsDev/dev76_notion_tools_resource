@@ -102,3 +102,7 @@
     
 
 }
+
+.notion-topbar {
+    display: none !important;
+}
